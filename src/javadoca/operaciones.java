@@ -12,7 +12,7 @@ public class operaciones {
      * 
      * @param a
      * @param b
-     * @return 
+     * @return nos devuelve el resultado de la division 
      */
     public int modulo(int a, int b) {
         if (b == 0) {
@@ -24,7 +24,7 @@ public class operaciones {
  /**
   * 
   * @param a
-  * @return 
+  * @return nos devolvera las medidas del cuadrado 
   */
     public int calcularCuadrado(int a) {
         return a * a;
@@ -32,7 +32,7 @@ public class operaciones {
 /**
  * 
  * @param a
- * @return 
+ * @return nos devolvera el resutado de la raiz cuadrada
  */
     public double calcularRaizCuadrada(double a) {
         if (a < 0) {
